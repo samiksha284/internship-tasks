@@ -1,0 +1,9 @@
+{
+  "doctype": "DocType",
+  "name": "Subject",
+  "module": "School Management",
+  "fields": [
+    {"fieldname": "subject_name", "fieldtype": "Data", "label": "Subject Name", "reqd": 1},
+    {"fieldname": "teacher", "fieldtype": "Link", "label": "Assigned Teacher", "options": "Teacher"}
+  ]
+}

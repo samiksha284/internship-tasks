@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Student",
+  "module": "School Management",
+  "fields": [
+    {"fieldname": "name", "fieldtype": "Data", "label": "Name", "reqd": 1},
+    {"fieldname": "age", "fieldtype": "Int", "label": "Age", "reqd": 1},
+    {"fieldname": "class", "fieldtype": "Link", "label": "Class", "options": "Class"},
+    {"fieldname": "contact_details", "fieldtype": "Data", "label": "Contact Details"},
+    {"fieldname": "documents", "fieldtype": "Attach", "label": "Upload Documents"}
+  ]
+}

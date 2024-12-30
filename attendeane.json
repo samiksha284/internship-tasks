@@ -1,0 +1,11 @@
+{
+  "doctype": "DocType",
+  "name": "Attendance",
+  "module": "School Management",
+  "fields": [
+    {"fieldname": "student", "fieldtype": "Link", "label": "Student", "options": "Student", "reqd": 1},
+    {"fieldname": "class", "fieldtype": "Link", "label": "Class", "options": "Class", "reqd": 1},
+    {"fieldname": "date", "fieldtype": "Date", "label": "Date", "reqd": 1},
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Present\nAbsent", "reqd": 1}
+  ]
+}

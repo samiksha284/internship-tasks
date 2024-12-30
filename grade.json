@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Grade",
+  "module": "School Management",
+  "fields": [
+    {"fieldname": "student", "fieldtype": "Link", "label": "Student", "options": "Student", "reqd": 1},
+    {"fieldname": "subject", "fieldtype": "Link", "label": "Subject", "options": "Subject", "reqd": 1},
+    {"fieldname": "exam_name", "fieldtype": "Data", "label": "Exam Name", "reqd": 1},
+    {"fieldname": "score", "fieldtype": "Float", "label": "Score", "reqd": 1},
+    {"fieldname": "weight", "fieldtype": "Float", "label": "Weight", "reqd": 1}
+  ]
+}

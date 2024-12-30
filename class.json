@@ -1,0 +1,9 @@
+{
+  "doctype": "DocType",
+  "name": "Class",
+  "module": "School Management",
+  "fields": [
+    {"fieldname": "class_name", "fieldtype": "Data", "label": "Class Name", "reqd": 1},
+    {"fieldname": "subjects", "fieldtype": "Table", "label": "Subjects", "options": "Subject"}
+  ]
+}

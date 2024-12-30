@@ -1,0 +1,14 @@
+{
+  "doctype": "DocType",
+  "name": "Ticket",
+  "module": "Support Ticketing",
+  "fields": [
+    {"fieldname": "title", "fieldtype": "Data", "label": "Title", "reqd": 1},
+    {"fieldname": "description", "fieldtype": "Text", "label": "Description", "reqd": 1},
+    {"fieldname": "priority", "fieldtype": "Select", "label": "Priority", "options": "Low\nMedium\nHigh", "reqd": 1},
+    {"fieldname": "category", "fieldtype": "Link", "label": "Category", "options": "Category"},
+    {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Open\nIn Progress\nResolved\nClosed", "default": "Open"},
+    {"fieldname": "assigned_to", "fieldtype": "Link", "label": "Assigned To", "options": "User"},
+    {"fieldname": "attachments", "fieldtype": "Attach", "label": "Attachments"}
+  ]
+}
